@@ -1,0 +1,5 @@
+127.0.0.1 - - [18/Sep/2015:21:27:13 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:21:27:42 -0300] "GET /CrunchifyRESTJerseyExample/crunchify/ctofservice HTTP/1.1" 200 157
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:21:27:42 -0300] "GET /favicon.ico HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:21:29:40 -0300] "GET /CrunchifyRESTJerseyExample/crunchify/ctofservice?Nombre=&Apellido=&Direccion=&Tel= HTTP/1.1" 200 157
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:21:29:40 -0300] "GET /favicon.ico HTTP/1.1" 404 983
