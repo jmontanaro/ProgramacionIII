@@ -12,21 +12,43 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class MostrarFormServlet
  */
 @WebServlet("/MostrarFormServlet")
+/**
+ * 
+ * @author NicolasAriel
+ *
+ */
 public class MostrarFormServlet extends HttpServlet {
-	
+		
 	/* Agrego esta linea porque me la pide la clase */
 	private static final long serialVersionUID = 1L;
     
     public MostrarFormServlet() {
         super();
     }
+    
+    /**
+     * Aca vamos a declarar las clases doGet y doPost del Servlet
+     */
+    
+    /**
+     * Dejamos en blanco la clase doGet ya que por el momento no vamos a estar haciendo uso de ella
+     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	// TODO Auto-generated method stub
     }
 
+    /**
+     * Declaramos la clase doPost para la cual vamos a ejecutar todo metodo que provenga bajo ese valor
+     * @throws ServletException
+     * @throws IOException
+     */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         
          PrintWriter out = response.getWriter();
 
+         /**
+          * Armo el archivo CSS tomando las variables del formulario
+          */
          out.println("<!DOCTYPE html>");
          out.println("<html>");
          out.println("<head>");
