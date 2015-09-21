@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agenda</title>
+<style>
+body {background-color:lightblue}
+h1 {
+    color:red;
+    text-decoration: underline;
+}
+p1 {
+    color:green;
+    font-family:courier;
+    font-size:160%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<fieldset>
+<legend align= "center"><h1>Agregar Contacto</h1></legend>
+<br>
+<br>
+<img src="http://aberturasargentinas.com.ar/img/contenidos/obras_maimonides_01.jpg" alt="Facultad Maimonides" width="200px" height="200px" align="right" >
+<p><form method="post" action="http://localhost:8080/Restagenda/agenda/ruben/contacto">
+<table>
+<tr>
+<td><p1>Apellido:</p1></td>
+<td><input type="text" name="Apellido" size="40" maxlength="40" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Nombre:</p1></td>
+<td><input type="text" name="Nombre" size="40" maxlength="40" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Direccion:</p1></td>
+<td><input type="text" name="Direccion" size="100" maxlength="100" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Telefono:</p1></td>
+<td><input type="text" name="Telefono" size="30" maxlength="25" style="background: #99F273"></td>
+</tr>
+</table>
+<input type="submit" value="Agregar" style="position: relative; left: 600px; top: 20px">
+</form>
+</p>
+</fieldset>
+</body>
+</html>
