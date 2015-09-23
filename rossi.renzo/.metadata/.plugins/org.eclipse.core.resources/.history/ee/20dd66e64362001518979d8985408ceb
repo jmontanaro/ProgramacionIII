@@ -1,0 +1,32 @@
+package com.Renzo;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.FormParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path; 
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+@Path("/contactos")
+public class Contactos {
+
+	@POST
+	public String procesarDatos (@FormParam("Nombre") String nombre, @FormParam("Apellido") String apellido, @FormParam("Direccion") String direccion, @FormParam("Tel")  int telefono){
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellido: " + apellido);
+		System.out.println("Direccion: " + direccion);
+		System.out.println("Telefono: " + telefono);
+	return "Hola Mundo " + nombre + apellido + direccion + telefono;		
+	} 
+	
+	 @GET
+	 @Produces("application/json")
+		 public String datosProcesados(){
+		 
+	 }
+	
+}

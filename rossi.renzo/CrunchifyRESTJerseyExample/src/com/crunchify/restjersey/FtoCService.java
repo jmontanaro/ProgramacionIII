@@ -1,24 +1,32 @@
 package com.crunchify.restjersey;
  
+import javax.ws.rs.FormParam;
+
 /**
  * @author Crunchify
  */
  
 import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path; 
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 import org.json.JSONException;
 import org.json.JSONObject;
- 
+
 @Path("/ftocservice")
 public class FtoCService {
  
+		@POST
+		public String procesarDatos (@FormParam("Nombre") String nombre){
+			System.out.println("nombre: " + nombre);
+		return "Hola Mundo " + nombre;		
+		} 
+	
 	  @GET
 	  @Produces("application/json")
-	  public Response convertFtoC() throws JSONException {
- 
+	  public Response convertFtoC() throws JSONException { 
 		JSONObject jsonObject = new JSONObject();
 		Double fahrenheit = 98.24;
 		Double celsius;
