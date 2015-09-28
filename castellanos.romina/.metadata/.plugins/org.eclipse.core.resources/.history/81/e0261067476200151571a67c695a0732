@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-color:lightblue
+	}
+</style>
+</head>
+<body>
+<form action="http://localhost:8080/TpAgenda/tpagenda/Agenda/" method="post" id="Formulario">
+<fieldset>
+<img src="http://taliandroid.com/wp-content/uploads/2014/01/CONTACTOS-ICONO.png" alt="agenda" style="width:258px; height:228px;" ALIGN=right>
+    <table>
+        <legend>Complete los datos:</legend>
+	<tr>
+	<br></br>
+        <td>Nombre</td>
+	<td><input style="background:chartreuse" type="text" name="nombre" size="20" /></td>
+	</tr>
+	<tr>
+	<td>Apellido</td>
+	<td><input style="background:chartreuse" type="text" name="apellido" size="20" /></td>
+	</tr>
+	<td>Domicilio</td>
+	<td><input style="background:chartreuse" type="text" name="domicilio" size="20" /></td>
+	<tr>
+	<td>Teléfono</td>
+	<td><input style="background:chartreuse" type="text" name="telefono" size="20" /></td>
+	</tr>
+	</table>
+	<tr>
+	<td><br></br></td>
+	<td><input type="submit" name="enviar" size="20" /></td>
+	</tr>
+</fieldset>
+</form>
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
