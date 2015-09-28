@@ -141,7 +141,7 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_qBm1oGJJEeWHpIDadKK1JQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="agendanew.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;agendanew.html&quot; partName=&quot;agendanew.html&quot; title=&quot;agendanew.html&quot; tooltip=&quot;Agenda/WebContent/agendanew.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Agenda/WebContent/agendanew.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;297&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;agendanew.html&quot; partName=&quot;agendanew.html&quot; title=&quot;agendanew.html&quot; tooltip=&quot;Agenda/WebContent/agendanew.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Agenda/WebContent/agendanew.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;21&quot; selectionOffset=&quot;261&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
@@ -161,7 +161,7 @@
       <toolbar xmi:id="_n01XAV5iEeWZpa-Mql2DDA" elementId="org.eclipse.ui.navigator.ProjectExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_nrwTjV5iEeWZpa-Mql2DDA" elementId="org.eclipse.ui.views.ResourceNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Navigator" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/filenav_nav.png" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/Agenda&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src/com&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src/com/Renzo&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/WebContent&quot;/>&#xD;&#xA;&lt;element path=&quot;/CrunchifyRESTJerseyExample&quot;/>&#xD;&#xA;&lt;element path=&quot;/CrunchifyRESTJerseyExample/src&quot;/>&#xD;&#xA;&lt;element path=&quot;/CrunchifyRESTJerseyExample/src/com&quot;/>&#xD;&#xA;&lt;element path=&quot;/CrunchifyRESTJerseyExample/src/com/crunchify&quot;/>&#xD;&#xA;&lt;element path=&quot;/CrunchifyRESTJerseyExample/src/com/crunchify/restjersey&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element path=&quot;/Agenda/WebContent/agendanew.html&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/Agenda&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src/com&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/src/com/Renzo&quot;/>&#xD;&#xA;&lt;element path=&quot;/Agenda/WebContent&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element path=&quot;/Agenda/WebContent/agendanew.html&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_2LnGoGJEEeWJauVFozZT8A" elementId="org.eclipse.ui.views.ResourceNavigator">
@@ -266,7 +266,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ncuZAl5iEeWZpa-Mql2DDA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qOzZkGJIEeWHpIDadKK1JQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mjdPkl5iEeWZpa-Mql2DDA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-qroYWN7EeWd25-FrDpH-A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mjdPkl5iEeWZpa-Mql2DDA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ncuZA15iEeWZpa-Mql2DDA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -296,7 +296,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ncuZB15iEeWZpa-Mql2DDA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_qOzZmmJIEeWHpIDadKK1JQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mjdPO15iEeWZpa-Mql2DDA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_-qroa2N7EeWd25-FrDpH-A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mjdPO15iEeWZpa-Mql2DDA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ncuZCF5iEeWZpa-Mql2DDA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
