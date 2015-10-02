@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Sep/2015:22:18:16 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:18:33 -0300] "GET /TpAgenda/WEB-INF/classes/com/Romina/restjersey/Contactos.java HTTP/1.1" 404 959
+127.0.0.1 - - [30/Sep/2015:22:20:32 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:20:34 -0300] "GET /TpAgenda/WEB-INF/classes/com/Romina/restjersey/Contactos.java HTTP/1.1" 404 959
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:21:03 -0300] "GET /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:21:03 -0300] "GET /favicon.ico HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:21:18 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:23:20 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [30/Sep/2015:22:23:30 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076

@@ -1,0 +1,8 @@
+127.0.0.1 - - [28/Sep/2015:20:49:21 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:00 -0300] "GET /TpAgenda/Formulario.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:00 -0300] "GET /favicon.ico HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:11 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:15 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:26 -0300] "POST /TpAgenda/Formulario.html HTTP/1.1" 200 1076
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:12:46 -0300] "GET /Agenda/Romina/Contactos HTTP/1.1" 404 1007
+0:0:0:0:0:0:0:1 - - [28/Sep/2015:21:56:52 -0300] "GET /TpAgenda/Formulario.html HTTP/1.1" 200 1076
