@@ -1,0 +1,6 @@
+127.0.0.1 - - [02/Oct/2015:19:20:37 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:19:20:52 -0300] "GET /Agenda/agendanew.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:19:20:52 -0300] "GET /favicon.ico HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:19:21:04 -0300] "POST /Agenda/Renzo/contactos HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:19:22:04 -0300] "GET /Agenda/Renzo/contactos HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:19:22:07 -0300] "POST /Agenda/Renzo/contactos HTTP/1.1" 404 1005

@@ -17,6 +17,7 @@ p1 {
 </head>
 <body>
 <form action="http://localhost:8080/Agenda/Renzo/contactos" method="post" >
+<form action="http://localhost:8080/Agenda/Renzo/contactos" method="get" > 
 <fieldset>
 <legend align= "center"><h1>Agenda</h1></legend>
 <br>
