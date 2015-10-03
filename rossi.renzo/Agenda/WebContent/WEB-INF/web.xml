@@ -20,6 +20,6 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Jersey Web Application</servlet-name>
-		<url-pattern>/agenda/renzo/*</url-pattern>
+		<url-pattern>/renzo/*</url-pattern>
 	</servlet-mapping>
 </web-app>
