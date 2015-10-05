@@ -1,0 +1,6 @@
+127.0.0.1 - - [25/Sep/2015:00:37:32 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [25/Sep/2015:00:37:32 -0300] "GET /TpAgenda/Formulario.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2015:00:37:32 -0300] "GET /favicon.ico HTTP/1.1" 404 983
+0:0:0:0:0:0:0:1 - - [25/Sep/2015:00:38:33 -0300] "POST /TpAgenda/Agenda HTTP/1.1" 404 991
+0:0:0:0:0:0:0:1 - - [25/Sep/2015:00:45:14 -0300] "GET /TpAgenda/WEB-INF/classes/com/tpagenda/restjersey/Agenda.java HTTP/1.1" 404 959
+127.0.0.1 - - [25/Sep/2015:21:54:05 -0300] "GET / HTTP/1.1" 404 961
