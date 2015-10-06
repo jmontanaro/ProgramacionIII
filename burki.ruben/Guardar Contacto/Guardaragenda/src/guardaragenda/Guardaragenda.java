@@ -1,20 +1,27 @@
-package restagenda;
+package guardaragenda;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.ws.rs.FormParam;
 
 @Path("/contacto")
-public class Recagenda {
+public class Guardaragenda {
+	
+	static Collection listaContacto = new ArrayList<Contacto>();
 
 	@POST
 	public String imprimirdatosformulario (@FormParam("Apellido") String surname, @FormParam("Nombre") String name, 
 			                             @FormParam("Direccion") String address, 
 			                             @FormParam("Telefono") String telephone ) {
-		System.out.println( "Apellido: " + surname );
-		System.out.println( "Nombre: " + name );
-		System.out.println( "Direccion: " + address );
-		System.out.println( "Telefono: " + telephone );
-		return "Metodo ejecutado";
+
+		Contacto contacto = new Contacto(name,surname,address,telephone);
+		
+		listaContacto.add(contacto);
+		
+		return "Cantidad de contactos: " + String.valueOf(listaContacto.size());
 	} 
 }
