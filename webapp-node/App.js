@@ -6,7 +6,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function (req, res) {
-  res.send('Invocaron el Metodo GET');
   res.json(req.body);
   console.log(req.body);
 })
