@@ -1,0 +1,50 @@
+package com.Renzo;
+
+import javax.ws.rs.Path;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.ws.rs.FormParam;
+import javax.ws.rs.POST;
+
+public class contacto {
+	String Nombre ;
+	String Apellido ;
+	String Direccion ;
+	String Telefono ;
+	return void
+}
+
+@Path("/contactos")
+public class Contactos {
+
+	Collection contacto = new ArrayList <String> () ;
+	
+	@SuppressWarnings("unchecked")
+	@POST
+	public String procesarDatos (@FormParam("Nombre") String Nombre, 
+								 @FormParam("Apellido") String Apellido, 
+								 @FormParam("Direccion") String Direccion, 
+								 @FormParam("Tel")  String Telefono){
+				
+		contacto.add(Nombre) ;
+		contacto.add(Apellido) ;
+		contacto.add(Direccion) ;
+		contacto.add(Telefono) ;
+		
+		System.out.println ("Cantidad de contactos: " + contacto.size()) ;
+		
+		System.out.println("Nombre: " + Nombre);
+		System.out.println("Apellido: " + Apellido);
+		System.out.println("Direccion: " + Direccion);
+		System.out.println("Telefono: " + Telefono);
+		
+	
+	
+	return "Nombre: " + Nombre + " Apellido: " + Apellido + " Direccion: " + Direccion + " Telefono: " + Telefono;		
+	} 
+	
+
+	
+}

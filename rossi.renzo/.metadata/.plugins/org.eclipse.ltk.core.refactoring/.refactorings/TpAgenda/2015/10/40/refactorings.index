@@ -1,0 +1,14 @@
+1443833990748	Rename type 'contacto'
+1443834110395	Rename type 'Contactos'
+1443834246254	Rename local variable 'Nombre'
+1443834251694	Rename local variable 'Apellido'
+1443834256290	Rename local variable 'Direccion'
+1443834264878	Rename local variable 'Telefono'
+1443834319281	Rename field 'Nombre'
+1443834323558	Rename field 'Apellido'
+1443834335767	Rename field 'Direccion'
+1443834341350	Rename field 'Telefono'
+1443834918879	Delete element
+1443834922613	Delete element
+1443834964857	Delete element
+1443835345604	Rename package 'com.Renzo'

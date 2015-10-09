@@ -1,0 +1,44 @@
+package com.Renzo;
+
+import javax.ws.rs.Path;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.ws.rs.FormParam;
+import javax.ws.rs.POST;
+ 
+
+@Path("/contactos")
+public class ContactoService {
+
+	private Collection contactosGuardados = new ArrayList<Contacto> () ;
+	
+	@SuppressWarnings("unchecked")
+	@POST
+	public String procesarDatos (@FormParam("Nombre") String nombre, 
+								 @FormParam("Apellido") String apellido, 
+								 @FormParam("Direccion") String direccion, 
+								 @FormParam("Tel")  String telefono){
+				
+		Contacto nuevoContacto = new Contacto();
+		nuevoContacto.setNombre(nombre);
+		nuevoContacto.setApellido(apellido);
+		nuevoContacto.setDireccion(direccion);
+		nuevoContacto.setTelefono(telefono);
+		
+		System.out.println ("Cantidad de contactos: " + contacto.size()) ;
+		
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellido: " + apellido);
+		System.out.println("Direccion: " + direccion);
+		System.out.println("Telefono: " + telefono);
+		
+	
+	
+	return "Nombre: " + nombre + " Apellido: " + apellido + " Direccion: " + direccion + " Telefono: " + telefono;		
+	} 
+	
+
+	
+}
