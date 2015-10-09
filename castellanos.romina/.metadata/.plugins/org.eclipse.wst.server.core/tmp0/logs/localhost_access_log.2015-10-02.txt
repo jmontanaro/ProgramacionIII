@@ -41,3 +41,8 @@
 0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:31:57 -0300] "GET /TpAgenda/romina/contactos HTTP/1.1" 200 27
 0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:32:11 -0300] "POST /TpAgenda/romina/contactos HTTP/1.1" 200 89
 0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:34:00 -0300] "POST /TpAgenda/romina/contactos HTTP/1.1" 200 89
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:20:46:31 -0300] "POST /TpAgenda/romina/contactos HTTP/1.1" 200 67
+127.0.0.1 - - [02/Oct/2015:22:50:59 -0300] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:51:15 -0300] "GET /TpAgenda/Formulario.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:51:24 -0300] "POST /TpAgenda/romina/contactos HTTP/1.1" 200 105
+0:0:0:0:0:0:0:1 - - [02/Oct/2015:22:51:57 -0300] "POST /TpAgenda/romina/contactos HTTP/1.1" 200 106

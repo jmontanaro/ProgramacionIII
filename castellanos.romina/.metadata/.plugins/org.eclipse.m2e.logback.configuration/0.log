@@ -456,3 +456,35 @@
 2015-10-02 20:34:09,427 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
 2015-10-02 20:34:09,436 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-10-02 20:34:09,440 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 21:55:06,497 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:55:06,514 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 21:55:06,520 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:55:06,522 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 21:56:52,768 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:56:52,773 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 21:56:52,778 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:56:52,781 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 21:59:05,354 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:59:05,358 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 21:59:05,370 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 21:59:05,379 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 22:41:35,480 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:41:35,489 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 22:41:35,496 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:41:35,500 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 22:43:18,077 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:43:18,080 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 22:43:18,085 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:43:18,088 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 22:48:49,127 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:48:49,130 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 22:48:49,134 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:48:49,137 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 22:49:34,155 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:49:34,159 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 22:49:34,164 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:49:34,167 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources
+2015-10-02 22:50:19,796 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:50:19,799 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\main\resources
+2015-10-02 22:50:19,803 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-02 22:50:19,807 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Repositorio Program III\ProgramacionIII\castellanos.romina\TpAgenda\src\test\resources

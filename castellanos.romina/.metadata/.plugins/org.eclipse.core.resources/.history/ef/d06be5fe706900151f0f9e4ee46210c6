@@ -25,8 +25,8 @@ public class Contactos {
 
 		contactosGuardados.add(nuevocontacto);
 
-		System.out.println(nuevocontacto);
-		return "Nombre: " + nombre + " Apellido: " + apellido + " Domicilio: " + domicilio + " Telefono: " + telefono + " - guardados: " + contactosGuardados.size();
+		System.out.println("Nombre:" + nombre);
+		return "Nombre: " + nombre + " Apellido: " + apellido + " Domicilio: " + domicilio + " Telefono: " + telefono;
 
 	}
 
