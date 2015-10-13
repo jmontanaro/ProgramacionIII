@@ -12,12 +12,12 @@ import javax.ws.rs.Path;
  */
 
 @Path("/mostrarForm")
-public class MostrarForm {
+
+public class MostrarForm{
 		
-	static Collection listaContacto = new ArrayList<Contacto>();
+	static Collection<Contacto> listaContacto = new ArrayList<Contacto>();
 		
 	@POST	
-	
     public static String imprimeEnConsola(@FormParam("nombre") String nombre, 
     		@FormParam("apellido") String apellido,
     		@FormParam("telefono") String telefono, 
@@ -31,9 +31,8 @@ public class MostrarForm {
 		
 		listaContacto.add(contacto1);
 						
-		System.out.println(listaContacto.size());
-		
-    	return String.valueOf(listaContacto.size());
+		return "Nombre: " +nombre + "Apellido: " +apellido + "Telefono: " +telefono + "Direccion: " +direccion + 
+				"Cantidad: " +listaContacto.size();
     	
     }
 }
