@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collection;
-
 import javax.ws.rs.FormParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -17,8 +16,8 @@ public class MostrarForm{
 		
 	static Collection<Contacto> listaContacto = new ArrayList<Contacto>();
 		
-	@POST	
-    public static String imprimeEnConsola(@FormParam("nombre") String nombre, 
+	@POST
+	public static String imprimeEnConsola(@FormParam("nombre") String nombre, 
     		@FormParam("apellido") String apellido,
     		@FormParam("telefono") String telefono, 
     		@FormParam("direccion") String direccion) {
@@ -30,9 +29,9 @@ public class MostrarForm{
 		contacto1.setDireccion(direccion);
 		
 		listaContacto.add(contacto1);
-						
-		return "Nombre: " +nombre + "Apellido: " +apellido + "Telefono: " +telefono + "Direccion: " +direccion + 
-				"Cantidad: " +listaContacto.size();
+		
+		return "\nNombre: " +nombre + "\nApellido: " +apellido + "\nTelefono: " +telefono + "\nDireccion: " +direccion + 
+				"\nCantidad: " +listaContacto.size();
     	
     }
 }
