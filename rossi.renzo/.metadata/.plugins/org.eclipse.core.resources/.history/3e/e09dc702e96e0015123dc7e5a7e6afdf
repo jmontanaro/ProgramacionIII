@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agenda</title>
+<style>
+body {
+	background-color: #3399FF
+}
+
+h1 {
+	color: black;
+}
+
+p1 {
+	color: black;
+	font-family: arial;
+	font-size: 120%;
+	font-weight: 600;
+}
+
+<script>
+$(document).ready(function(){
+($("#name")).keyup(function(){
+	alert("tecla");
+	});
+}); 
+</script> 
+ 
+}
+
+</style>
+</head>
+<body>
+
+	<fieldset>
+		<legend align="center">
+			<h1>Agenda</h1>
+		</legend>
+		<br> <br> <img
+			src="http://archivo.de10.com.mx/img/fotogaleria/2013/04/94checklist-verde.jpg"
+			alt="Check" width="230px" height="230px" align="right">
+		<p>
+		<form action="http://localhost:8080/TpAgenda/renzo/contactos"
+			method="post">
+			<table>
+
+				<tr>
+					<td><p1>Nombre:</p1></td>
+					<td><input placeholder="Nombre" type="text" name="name" size="20" maxlength="40"
+						style="background: #5C991F" ></td>
+				</tr>
+				<tr>
+					<td><p1>Apellido:</p1></td>
+					<td><input placeholder="Apellido" type="text" name="Apellido" size="20"
+						maxlength="40" style="background: #5C991F" ></td>
+				</tr>
+				<tr>
+					<td><p1>Direccion:</p1></td>
+					<td><input placeholder="Direccion" type="text" name="Direccion" size="40"
+						maxlength="100" style="background: #5C991F" ></td>
+				</tr>
+				<tr>
+					<td><p1>Telefono:</p1></td>
+					<td><input placeholder="Telefono" type="number" name="Tel" size="20" maxlength="25"
+						style="background: #5C991F" ></td>
+				</tr>
+
+			</table>
+			<br> <input type="submit" value="Agregar">
+
+		</form>
+		</p>
+	</fieldset>
+	
+	
+</body>
+</html>
