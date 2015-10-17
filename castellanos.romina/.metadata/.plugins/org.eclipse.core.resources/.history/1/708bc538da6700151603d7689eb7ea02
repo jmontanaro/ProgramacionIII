@@ -1,0 +1,33 @@
+package com.Romina.restjersey;
+
+ 
+import javax.ws.rs.FormParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+ 
+@Path("/agenda")
+public class Contactos {
+	
+	@POST
+	@Path("/contactos")
+	public String procesarDatos(
+			@FormParam("nombre") String nombre,
+			@FormParam("apellido") String apellido,
+			@FormParam("domicilio") String domicilio,
+			@FormParam("telefono") String telefono
+			){
+		System.out.println("Nombre:" + nombre);
+		//return "Hola Mundo " + nombre + apellido + domicilio + telefono;
+		return Response.status(200)
+			.entity("addUser is called, nombre : " + nombre + ", apellido : " + apellido)
+			.build();
+
+	}
+	
+	@GET
+	public String metodoprocesado(){
+		return "Metodo Ejecutado";
+	}
+ 
+}

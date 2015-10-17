@@ -1,10 +1,23 @@
+/**
+ * 
+ * @author NicolasAriel
+ *
+ */
 
 public class Contacto {
 
+	private String id;
 	private String nombre; 
 	private String apellido;
 	private String telefono;
 	private String direccion;
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
 	
 	public String getNombre() {
 		return nombre;
