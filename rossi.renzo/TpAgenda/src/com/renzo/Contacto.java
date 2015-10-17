@@ -5,13 +5,13 @@ public class Contacto {
 	private String apellido;
 	private String direccion;
 	private String telefono;
-	private long ID;
+	private long id;
 	
 	public long getID() {
-		return ID;
+		return id;
 	}
 	public void setID(long ID) {
-		this.ID = ID;
+		this.id = ID;
 	}
 	public String getNombre() {
 		return nombre;
@@ -40,6 +40,6 @@ public class Contacto {
 	
 	@Override
 	public String toString() {
-		return "Contacto [" + nombre + ", " + apellido + ", "+ direccion + " , "+ telefono +" , " + ID + "]";
+		return "Contacto [" + nombre + ", " + apellido + ", "+ direccion + " , "+ telefono +" , " + id + "]";
 	}
 }

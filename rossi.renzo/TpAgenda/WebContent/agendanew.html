@@ -40,7 +40,10 @@ $(document).ready(function(){
         },
         function(data,status){
             alert("Data: " + data.nombre + "\nStatus: " + status);
-            $("#resultado").text(data.nombre);
+            $("#nombre").text(data.nombre);
+            $("#apellido").text(data.apellido);
+            $("#direccion").text(data.direccion);
+            $("#telefono").text(data.telefono);
         });
     });
 });
@@ -84,11 +87,19 @@ $(document).ready(function(){
 			</table>
 			<br> 
 			<!-- <input type="submit" value="Agregar"> -->
-			<button id="btn" >Agregar via ajax</button>
+			<button id="btn" >Agregar via ajax</button><br>
 		<!-- </form> -->
 		</div>
 		<div>
-			<label id="resultado">El resultado es:</label>
+			<label> DATOS INGRESADOS </label><br> 
+			<label>Nombre: </label>
+			<label id="nombre"></label><br> 
+			<label>Apellido: </label>
+			<label id="apellido"></label><br>
+			<label>Direccion: </label> 
+			<label id="direccion"></label><br> 
+			<label>Telefono: </label>
+			<label id="telefono"></label><br> 
 		</div>
 	</fieldset>
 	

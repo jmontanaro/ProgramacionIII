@@ -872,3 +872,235 @@
 2015-10-16 19:13:26,531 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
 2015-10-16 19:13:26,534 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-10-16 19:13:26,535 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:17:53,278 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:17:53,284 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:17:53,287 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:17:53,290 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:22:40,167 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:22:40,169 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:22:40,171 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:22:40,172 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:25:53,530 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:25:53,533 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:25:53,535 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:25:53,537 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:40:20,201 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:40:20,203 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:40:20,207 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:40:20,208 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:41:40,473 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:41:40,475 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:41:40,478 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:41:40,479 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:42:56,622 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:42:56,623 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:42:56,626 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:42:56,628 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:44:04,042 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:44:04,043 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:44:04,048 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:44:04,049 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:47:10,926 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:47:10,927 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:47:10,928 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:47:10,929 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:51:23,316 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:51:23,317 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:51:23,318 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:51:23,319 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 19:51:31,134 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:51:31,136 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 19:51:31,138 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 19:51:31,139 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:02:09,584 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:02:09,586 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:02:09,588 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:02:09,589 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:04:12,708 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:04:12,711 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:04:12,712 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:04:12,715 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:06:28,132 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:06:28,133 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:06:28,135 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:06:28,137 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:06:37,978 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:06:37,979 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:06:37,981 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:06:37,984 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:09:05,321 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:05,322 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:09:05,325 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:05,327 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:09:38,472 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:38,474 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:09:38,476 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:38,477 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:09:44,546 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:44,548 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:09:44,550 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:09:44,551 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:10:59,485 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:10:59,487 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:10:59,489 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:10:59,492 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:11:31,837 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:11:31,838 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:11:31,840 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:11:31,841 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:11:47,945 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:11:47,946 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:11:47,947 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:11:47,948 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:12:30,030 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:12:30,031 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:12:30,033 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:12:30,036 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:12:46,501 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:12:46,502 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:12:46,504 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:12:46,506 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:13:43,727 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:13:43,728 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:13:43,730 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:13:43,731 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:14:43,842 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:14:43,844 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:14:43,845 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:14:43,849 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:15:54,843 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:15:54,844 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:15:54,845 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:15:54,846 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:18:55,691 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:18:55,692 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:18:55,694 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:18:55,695 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:19:40,497 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:19:40,498 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:19:40,500 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:19:40,501 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:20:06,644 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:20:06,645 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:20:06,646 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:20:06,648 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:50:41,787 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:50:41,843 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:50:41,849 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:50:41,854 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 20:50:59,825 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:50:59,827 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 20:50:59,830 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 20:50:59,832 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:17:56,978 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:17:56,979 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:17:56,981 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:17:56,984 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:18:02,827 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:18:02,829 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:18:02,830 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:18:02,832 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:18:15,255 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:18:15,256 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:18:15,258 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:18:15,262 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:29:43,206 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:29:43,207 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:29:43,209 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:29:43,210 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:32:18,969 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:32:18,970 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:32:18,972 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:32:18,973 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:33:40,346 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:33:40,347 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:33:40,348 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:33:40,350 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:33:42,641 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:33:42,642 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:33:42,643 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:33:42,644 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:34:35,655 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:34:35,656 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:34:35,662 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:34:35,663 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:34:46,263 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:34:46,264 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:34:46,265 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:34:46,266 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:35:05,165 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:35:05,166 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:35:05,168 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:35:05,169 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:37:37,852 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:37:37,853 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:37:37,855 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:37:37,856 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:38:15,962 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:38:15,963 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:38:15,965 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:38:15,966 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:42:25,275 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:42:25,276 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:42:25,277 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:42:25,278 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:43:54,604 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:43:54,605 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:43:54,607 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:43:54,608 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:48:29,131 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:48:29,133 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:48:29,134 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:48:29,135 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:49:01,384 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:49:01,385 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:49:01,387 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:49:01,388 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:54:02,405 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:54:02,406 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:54:02,410 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:54:02,411 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:54:06,931 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:54:06,932 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:54:06,933 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:54:06,934 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:56:16,390 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:56:16,391 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:56:16,393 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:56:16,394 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:59:31,225 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:59:31,226 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:59:31,227 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:59:31,228 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 21:59:45,764 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:59:45,765 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 21:59:45,767 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 21:59:45,768 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:01:54,654 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:01:54,655 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:01:54,656 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:01:54,657 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:03:37,194 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:03:37,195 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:03:37,197 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:03:37,198 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:05:33,070 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:05:33,071 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:05:33,076 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:05:33,077 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:05:47,708 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:05:47,709 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:05:47,711 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:05:47,712 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:11:54,143 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:11:54,144 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:11:54,148 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:11:54,149 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:14:49,601 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:14:49,602 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:14:49,603 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:14:49,604 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
+2015-10-16 22:23:44,594 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:23:44,595 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\main\resources
+2015-10-16 22:23:44,597 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-10-16 22:23:44,600 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Renzo\Repositorio Programacion III\ProgramacionIII\rossi.renzo\TpAgenda\src\test\resources
