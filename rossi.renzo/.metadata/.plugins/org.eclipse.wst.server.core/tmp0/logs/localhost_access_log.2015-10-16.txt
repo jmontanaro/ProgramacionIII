@@ -143,3 +143,5 @@
 0:0:0:0:0:0:0:1 - - [16/Oct/2015:22:25:03 -0300] "POST /TpAgenda/renzo/contactos HTTP/1.1" 200 92
 0:0:0:0:0:0:0:1 - - [16/Oct/2015:22:25:09 -0300] "POST /TpAgenda/renzo/contactos HTTP/1.1" 200 93
 0:0:0:0:0:0:0:1 - - [16/Oct/2015:22:25:14 -0300] "GET /TpAgenda/renzo/contactos/1 HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [16/Oct/2015:22:27:51 -0300] "GET /TpAgenda/renzo/contactos/2 HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [16/Oct/2015:22:27:55 -0300] "GET /TpAgenda/renzo/contactos/5 HTTP/1.1" 404 -
