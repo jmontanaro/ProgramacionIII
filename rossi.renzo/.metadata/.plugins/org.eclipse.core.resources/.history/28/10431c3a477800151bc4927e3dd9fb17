@@ -70,27 +70,16 @@ public class ContactoService {
 	}
 	
 	
-	List<Contacto> ListContactos = new ArrayList <Contacto> (contactosGuardados.values() );
-	
-	
+	List<Contacto> ContactosList = new ArrayList <Contacto> (map.values() );
 	
 	@GET
 	public Response getFiltroNombre (@QueryParam ("nombre") String filterName){
 		
 		if (filterName != null){
-			String result = filtrarNombre (filterName , ListContactos);
+			
 		}
 		
-		private <ListContactos> ListContactos filtrarNombre(String filtro, List ContactosList){
-			if(filtro == null || filtro.isEmpty()
-						return ;
-		
-		for(contacto c : l){
-		if(c.getNombre()equals(filtro)){
-		filtrada.add(c);
-		}
-		return filtrada;
-
+		return null ;
 	}
 	
 }

@@ -78,19 +78,22 @@ public class ContactoService {
 	public Response getFiltroNombre (@QueryParam ("nombre") String filterName){
 		
 		if (filterName != null){
-			String result = filtrarNombre (filterName , ListContactos);
-		}
-		
-		private <ListContactos> ListContactos filtrarNombre(String filtro, List ContactosList){
-			if(filtro == null || filtro.isEmpty()
-						return ;
-		
-		for(contacto c : l){
-		if(c.getNombre()equals(filtro)){
-		filtrada.add(c);
-		}
-		return filtrada;
+				String result = filtrarNombre (filterName , result) ;
+				private List filtrarNombre(String filtro, List ContactosList){
+					if(filtro == null || filtro.isEmpty()
+								return l;
+				
+				List filtrada = arrayslist......()
+				
+				for(contacto c : l){
+				if(c.getNombre()equals(filtro)){
+				filtrada.add(c);
+				}
+				return filtrada;
 
+			}
+		
+		return null ;
 	}
 	
 }

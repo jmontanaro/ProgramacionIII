@@ -83,7 +83,7 @@ public class ContactoService {
 		
 		private <ListContactos> ListContactos filtrarNombre(String filtro, List ContactosList){
 			if(filtro == null || filtro.isEmpty()
-						return ;
+						return l;
 		
 		for(contacto c : l){
 		if(c.getNombre()equals(filtro)){

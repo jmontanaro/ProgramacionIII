@@ -78,12 +78,12 @@ public class ContactoService {
 	public Response getFiltroNombre (@QueryParam ("nombre") String filterName){
 		
 		if (filterName != null){
-			String result = filtrarNombre (filterName , ListContactos);
+				List result = filtrarNombre (filterName , result) ;
 		}
 		
-		private <ListContactos> ListContactos filtrarNombre(String filtro, List ContactosList){
+		private List filtrarNombre(String filtro, List ContactosList){
 			if(filtro == null || filtro.isEmpty()
-						return ;
+						return l;
 		
 		for(contacto c : l){
 		if(c.getNombre()equals(filtro)){
