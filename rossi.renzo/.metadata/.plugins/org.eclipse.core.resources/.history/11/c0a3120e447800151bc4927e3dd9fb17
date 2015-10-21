@@ -69,7 +69,6 @@ public class ContactoService {
 		return Response.ok(contactosGuardados).build();
 	}
 	
-	
 	List<Contacto> ContactosList = new ArrayList <Contacto> (Map.Contacto() );
 	
 	@GET

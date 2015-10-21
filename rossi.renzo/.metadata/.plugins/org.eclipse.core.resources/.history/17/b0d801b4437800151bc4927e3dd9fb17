@@ -69,8 +69,7 @@ public class ContactoService {
 		return Response.ok(contactosGuardados).build();
 	}
 	
-	
-	List<Contacto> ContactosList = new ArrayList <Contacto> (Map.Contacto() );
+	List<Contacto> list = new ArrayList <Contacto> (map.contacto ());
 	
 	@GET
 	public Response getFiltroNombre (@QueryParam ("nombre") String filterName){
