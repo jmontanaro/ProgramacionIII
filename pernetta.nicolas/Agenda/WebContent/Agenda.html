@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agenda</title>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:5px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:5px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-1{color:#99cc00}
+.tg .tg-3{color:#FF0000}
+.ta, th,td {border: 2px solid black;}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	
+	<!--Agregamos propiedad al Post para el envio-->
+	
+	$("#button").click(function(){
+		
+		var nom = $("#nombre").val();
+		var ape = $("#apellido").val();
+		var tel = $("#telefono").val();
+		var dir = $("#direccion").val();
+		
+		$.post("http://localhost:8080/Agenda/agenda/nicolas/contacto",
+		{
+			nombre: nom,
+			apellido: ape, 
+          	telefono: tel, 
+          	direccion: dir
+		},
+        function(data){
+			$("#resultadoid").text(data.id);
+            $("#resultadonombre").text(data.nombre);
+            $("#resultadoapellido").text(data.apellido);
+            $("#resultadotelefono").text(data.telefono);
+            $("#resultadodireccion").text(data.direccion);
+            
+        });
+	});
+	
+	<!--Agregamos propiedad al GET para la busqueda-->
+	
+	$("#search").click(function(){
+		
+		var srchnom = $("#srchnombre").val();
+		var srchape = $("#srchapellido").val();
+		var srchini = $("#srchinicialnombre").val();
+		var srchdir = $("#srchcalledireccion").val();
+		
+		$.get("http://localhost:8080/Agenda/agenda/nicolas/contacto",
+		{
+			nombre: srchnom,
+			apellido: srchape, 
+			inicial: srchini, 
+			direccion: srchdir
+		},
+        function(data){
+			var text = "<table>";
+			var x;
+			for (x in data) {
+			    text += "<tr>";
+			    text +="   <td>"+data[x].id + "</td>";
+			    text +="   <td>"+data[x].nombre + "</td>";
+			    text +="   <td>"+data[x].apellido + "</td>";
+			    text +="   <td>"+data[x].telefono + "</td>";
+			    text +="   <td>"+data[x].direccion + "</td>";
+			    text +="</tr>";
+			}
+			text+="</table>";
+			document.getElementById("tabla").innerHTML = text;
+			                 
+        });
+	});
+});
+</script>
+</head>
+
+<body>
+<img src="http://www.stieen.org.br/layout/titulo_agenda.jpg" alt="Foto1" height="70">
+
+<div>
+<b><br><br><label> Formulario de Envio</label><br></b>
+
+<table id="tablaenviados" class="tg">
+<tr>
+    <td class="tg-1">Nombre: </td><td class="tg-2"><input type="text" id="nombre"> </td>
+    <th class="tg-2" rowspan="4"><img src="http://www.ojodigital.com/foro/attachments/foro-general-de-juegos/167385d1331837775-redibujado-de-foto-carnet-cv-yeyo-02-digital-copia-como-objeto-inteligente-1.jpg" border="1" alt="Foto2" width="100" align="right" height="100"></th>
+</tr>
+<tr>
+    <td class="tg-1">Apellido: </td><td class="tg-2"><input type="text" id="apellido"></td>
+</tr>
+<tr>
+    <td class="tg-1">Telefono: </td><td class="tg-2"><input type="text" id="telefono"></td>
+</tr>
+<tr>
+    <td class="tg-1">Direccion: </td><td class="tg-2"><input type="text" id="direccion"></td>
+</tr>
+</table>
+<br><button id="button">Enviar</button>
+</div>
+
+<div>
+<br><label> INGRESADOS...</label><br>
+<label> Id: </label><label id="resultadoid"></label><br>
+<label> Nombre: </label><label id="resultadonombre"></label><br>
+<label> Apellido: </label><label id="resultadoapellido"></label><br>
+<label> Telefono: </label><label id="resultadotelefono"></label><br>
+<label> Direccion: </label><label id="resultadodireccion"></label>
+</div>
+
+
+<div>
+<b><br><label> Formulario de Busqueda</label><br></b>
+
+<table id="tablabuscados" class="tg">
+<tr>
+    <td class="tg-3">Nombre: </td><td class="tg-2"><input type="text" id="srchnombre"> </td>
+</tr>
+<tr>
+    <td class="tg-3">Apellido: </td><td class="tg-2"><input type="text" id="srchapellido"></td>
+</tr>
+<tr>
+    <td class="tg-3">Inicial Nombre: </td><td class="tg-2"><input type="text" id="srchinicialnombre"></td>
+</tr>
+<tr>
+    <td class="tg-3">Calle Direccion: </td><td class="tg-2"><input type="text" id="srchcalledireccion"></td>
+</tr>
+</table>
+<br><button id="search">Buscar</button>
+</div>
+
+<div>
+<br><label> ENCONTRADOS...</label><br>
+</div>
+<div id="tabla"/>
+</body>
+</html>

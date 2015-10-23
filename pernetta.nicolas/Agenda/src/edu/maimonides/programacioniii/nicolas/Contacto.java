@@ -1,3 +1,4 @@
+package edu.maimonides.programacioniii.nicolas;
 /**
  * 
  * @author NicolasAriel
@@ -6,17 +7,17 @@
 
 public class Contacto {
 
-	private String id;
+	private int id;
 	private String nombre; 
 	private String apellido;
 	private String telefono;
 	private String direccion;
 	
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setId(int i) {
+		this.id = i;
 	}
 	
 	public String getNombre() {
@@ -44,4 +45,10 @@ public class Contacto {
 		this.direccion = direccion;
 	}
 	
+	@Override
+	public String toString() {
+		return "Contacto [id=" + id + ", nombre=" + nombre + ", apellido="
+				+ apellido + ", telefono=" + telefono + ", direccion="
+				+ direccion + "]";
+	}
 }
