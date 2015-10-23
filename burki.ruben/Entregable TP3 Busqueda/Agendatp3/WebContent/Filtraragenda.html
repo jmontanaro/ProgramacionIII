@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Filtrar Agenda</title>
+<style>
+body {background-color:lightblue}
+h1 {
+    color:red;
+    text-decoration: underline;
+}
+p1 {
+    color:green;
+    font-family:courier;
+    font-size:160%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	$("#btn").click(function(){
+		var filtrarnombre = $("#nom").val();
+		var filtrarapellido = $("#surname").val();
+		var inicialnombre = $("#initialname").val();
+		var calledireccion = $("#streetadress").val();
+//		alert("filtrarnombre: " + filtrarnombre);
+		$.get("http://localhost:8080/Agendatp3/agenda/ruben/contacto?nombre="+filtrarnombre+"&apellido="+filtrarapellido+"&inicialnombre="+inicialnombre+"&calledireccion="+calledireccion+"",
+//		$.get("http://localhost:8080/Agendatp3/agenda/ruben/contacto",
+	        function(data,status){
+//				alert(JSON.stringify(data));
+//				alert("Data: " + data[0].nombre.toString() + "\nStatus: " + status);
+				var text = "<fieldset>";
+					text +="<legend><h1>Datos Filtrados</h1></legend>";
+				var x;
+					text +="<table border="+"1"+"style="+"width:100%>";
+					text +="<tr><td>Apellido</td><td>Nombre</td><td>Direccion</td><td>Telefono</td></tr>";
+				for (x in data) {
+				    text +="<tr><td>"+data[x].apellido.toString() + "</td>";
+				    text +="<td>"+data[x].nombre.toString() + "</td>";
+				    text +="<td>"+data[x].direccion.toString() + "</td>";
+				    text +="<td>"+data[x].telefono.toString() + "</td></tr>";
+//					text +="<table border="+"1"+"style="+"width:100%"+">";
+//				    text +="<tr><td>Apellido "+"</td><td>"+data[x].apellido.toString() + "</td></tr>";
+//				    text +="<tr><td>Nombre "+"</td><td>"+data[x].nombre.toString() + "</td></tr>";
+//				    text +="<tr><td>Direccion "+"</td><td>"+data[x].direccion.toString() + "</td></tr>";
+//				    text +="<tr><td>Telefono "+"</td><td>"+data[x].telefono.toString() + "</td></tr>";
+//				    text+="</table>";
+//				    text+="<br>";
+				}
+					text+="</table>";
+				    text+="</fieldset>";
+				    document.getElementById("tabla").innerHTML = text;
+	        });
+	    });
+	});
+</script>
+
+<body>
+
+<fieldset>
+<legend align= "center"><h1>Filtrar Agenda</h1></legend>
+<br>
+<br>
+<div>
+<table>
+<tr>
+<td><p1>Nombre a filtrar:</p1></td>
+<td><input id="nom" type="text" name="nombre" size="40" maxlength="40" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Apellido a filtrar:</p1></td>
+<td><input id="surname" type="text" name="apellido" size="40" maxlength="40" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Iniciales del nombre a filtrar:</p1></td>
+<td><input id="initialname" type="text" name="inicialnombre" size="40" maxlength="40" style="background: #99F273"></td>
+</tr>
+<tr>
+<td><p1>Calle de dirección a filtrar:</p1></td>
+<td><input id="streetadress" type="text" name="calledireccion" size="100" maxlength="100" style="background: #99F273"></td>
+</tr>
+</table>
+<button id="btn" >Filtrar</button>
+</div>
+</fieldset>
+<div id="tabla"/>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Agenda</title>
+<style>
+body {background-color:lightblue}
+h1 {
+    color:red;
+    text-decoration: underline;
+}
+p1 {
+    color:green;
+    font-family:courier;
+    font-size:160%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$("#btn").click(function(){
+		var nombre = $("#name").val();
+		var apellido = $("#ape").val();
+		var direccion = $("#dire").val();
+		var telefono = $("#tel").val();
+		$.post("http://localhost:8080/Agendatp3/agenda/ruben/contacto",
+				 {
+	          Nombre: nombre,
+	          Apellido: apellido, 
+	          Telefono: telefono, 
+	          Direccion: direccion
+	        },
+	        function(data,status){
+				var text = "<fieldset>";
+					text +="<legend><h1>Datos Ingresados</h1></legend>"; 
+					text +="<table border="+"1"+"style="+"width:100%>";
+					text +="<tr><td>Apellido</td><td>Nombre</td><td>Direccion</td><td>Telefono</td></tr>";
+					text +="<tr><td>"+data.apellido+" </td>";
+					text +="<td>"+data.nombre+" </td>";
+					text +="<td>"+data.direccion+" </td>";
+					text +="<td>"+data.telefono+" </td></tr>";					
+//					text +="<tr><td>Apellido  "+"</td><td>"+data.apellido+" </td></tr>";
+//					text +="<tr><td>Nombre "+"</td><td>"+data.nombre+" </td></tr>";
+//					text +="<tr><td>Direccion  "+"</td><td>"+data.direccion+" </td></tr>";
+//					text +="<tr><td>Telefono  "+"</td><td>"+data.telefono+" </td></tr>";
+					text +="</table>";
+					text +="</fieldset>";
+				
+				    document.getElementById("resultado").innerHTML = text;
+	        });
+	    });
+	});
+</script>
+
+<body>
+
+<fieldset>
+<legend align= "center"><h1>Agregar Contacto</h1></legend>
+<br>
+<br>
+<img src="http://aberturasargentinas.com.ar/img/contenidos/obras_maimonides_01.jpg" alt="Facultad Maimonides" width="200px" height="200px" align="right" >
+<div>
+<table>
+<tr>
+<td><p1>Apellido:</p1></td>
+<td><input id="ape" type="text" name="Apellido" size="40" maxlength="40" style="background: #99F273" autocomplete="on"></td>
+</tr>
+<tr>
+<td><p1>Nombre:</p1></td>
+<td><input id="name" type="text" name="Nombre" size="40" maxlength="40" style="background: #99F273" autocomplete="on"></td>
+</tr>
+<tr>
+<td><p1>Direccion:</p1></td>
+<td><input id="dire" type="text" name="Direccion" size="100" maxlength="100" style="background: #99F273" autocomplete="on"></td>
+</tr>
+<tr>
+<td><p1>Telefono:</p1></td>
+<td><input id="tel" type="text" name="Telefono" size="30" maxlength="25" style="background: #99F273" autocomplete="on"></td>
+</tr>
+</table>
+<button id="btn" >Agregar</button>
+</div>
+</fieldset>
+<div id="resultado"/>
+</body>
+</html>
