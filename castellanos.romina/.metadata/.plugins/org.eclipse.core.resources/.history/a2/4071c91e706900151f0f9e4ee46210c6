@@ -1,9 +1,0 @@
-package com.Romina.restjersey;
-
-public class Contacto {
-
-	String nombre;
-	String apellido;
-	String domicilio;
-	String telefono;
-}
