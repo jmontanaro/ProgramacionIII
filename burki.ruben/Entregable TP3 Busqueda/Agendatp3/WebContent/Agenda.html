@@ -15,6 +15,40 @@ p1 {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align: left;
+width: 600px;
+
+}
+
+.tabla th {
+padding: 5px;
+font-size: 16px;
+text-align: center;
+background-color: #C09583;
+background-repeat: repeat-x;
+color: #FFFFFF;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+.tabla td {
+font-size: 12px;
+font-weight:bold;
+background-color: #fdfdf1;
+background-repeat: repeat-x;
+color: #990000;
+font-family: “Trebuchet MS”, Arial;
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -35,8 +69,11 @@ $(document).ready(function(){
 	        function(data,status){
 				var text = "<fieldset>";
 					text +="<legend><h1>Datos Ingresados</h1></legend>"; 
-					text +="<table border="+"1"+"style="+"width:100%>";
-					text +="<tr><td>Apellido</td><td>Nombre</td><td>Direccion</td><td>Telefono</td></tr>";
+//					text +="<table border="+"1"+"style="+"width:100%>";
+					text +="<table border="+"'1'"+"class="+"'tabla'"+"style="+"'width:100%'>";
+//					text +="<tr><td>Apellido</td><td>Nombre</td><td>Direccion</td><td>Telefono</td></tr>";
+					text +="<tr><th>Apellido</td><th>Nombre</td><th>Direccion</td><th>Telefono</td></tr>";
+//					text +="<tr><td>"+data.apellido+" </td>";
 					text +="<tr><td>"+data.apellido+" </td>";
 					text +="<td>"+data.nombre+" </td>";
 					text +="<td>"+data.direccion+" </td>";
@@ -49,6 +86,10 @@ $(document).ready(function(){
 					text +="</fieldset>";
 				
 				    document.getElementById("resultado").innerHTML = text;
+				    document.getElementById("ape").value="";
+				    document.getElementById("name").value="";
+				    document.getElementById("dire").value="";
+				    document.getElementById("tel").value="";
 	        });
 	    });
 	});

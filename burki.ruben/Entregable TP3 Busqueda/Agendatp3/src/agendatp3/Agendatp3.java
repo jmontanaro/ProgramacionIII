@@ -75,7 +75,8 @@ public class Agendatp3 {
 			
 			Contacto prueba = (Contacto)it.next();
 			
-			if(prueba.getNombre().equals(name)) {
+//			if(prueba.getNombre().equals(name)) {
+			if(prueba.getNombre().toLowerCase().equals(name.toLowerCase())) {
 				
 				
 				filtrado.add(prueba);
@@ -102,7 +103,7 @@ public class Agendatp3 {
 			
 			Contacto prueba = (Contacto)it.next();
 			
-			if(prueba.getApellido().equals(surname)) {
+			if(prueba.getApellido().toLowerCase().equals(surname.toLowerCase())) {
 				
 				filtrado.add(prueba);
 			}
@@ -127,7 +128,7 @@ public class Agendatp3 {
 			
 			Contacto prueba = (Contacto)it.next();
 			
-			if(prueba.getNombre().startsWith(initname)) {
+			if(prueba.getNombre().toLowerCase().startsWith(initname.toLowerCase())) {
 				
 				filtrado.add(prueba);
 			}
@@ -151,7 +152,7 @@ private List<Contacto> filtrarCalleDireccion(String streetadress, List<Contacto>
 			
 			Contacto prueba = (Contacto)it.next();
 			
-			if(prueba.getDireccion().contains(streetadress)) {
+			if(prueba.getDireccion().toLowerCase().contains(streetadress.toLowerCase())) {
 				
 				filtrado.add(prueba);
 			}
