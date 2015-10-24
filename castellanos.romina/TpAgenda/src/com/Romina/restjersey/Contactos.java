@@ -54,16 +54,16 @@ public class Contactos {
 	@GET
 	// agregar todos los parametros nombre, apellido, etc.
 	public Response getFiltrados(@QueryParam("nombre") String filtroNombre,
-			@QueryParam("apellido") String filtroApellido, @QueryParam("domicilio") String filtroDomicilio,
-			@QueryParam("telefono") String filtroTelefono) {
+			@QueryParam("apellido") String filtroApellido, @QueryParam("inicial") String filtroInicial,
+			@QueryParam("domicilio") String filtroDomicilio) {
 
 		// contactosGuardados.values()
 		Collection<Contacto> result = contactosGuardados.values();
 
 		result = filtrarNombre(filtroNombre, result);
 		result = filtrarApellido(filtroApellido, result);
+		result = filtrarInicial(filtroInicial, result);
 		result = filtrarDomicilio(filtroDomicilio, result);
-		result = filtrarTelefono(filtroTelefono, result);
 
 		return Response.ok(result).build();
 		//return Response.ok(contactosGuardados.values()).build(); 
@@ -104,6 +104,23 @@ public class Contactos {
 
 	}
 
+	// Por Inicial del Nombre
+	private Collection<Contacto> filtrarInicial(String inicialFiltrado, Collection<Contacto> result) {
+
+		Collection<Contacto> filtrada = new ArrayList<Contacto>();
+
+		if (inicialFiltrado == null || inicialFiltrado.isEmpty())
+			return result;
+
+		for (Contacto c : result) {
+			if (c.getNombre().equals(inicialFiltrado)) {
+				filtrada.add(c);
+			}
+			
+		}
+		return filtrada;
+	}
+
 	// Por Domicilio
 	private Collection<Contacto> filtrarDomicilio(String domicilioFiltrado, Collection<Contacto> result) {
 
@@ -114,23 +131,6 @@ public class Contactos {
 
 		for (Contacto c : result) {
 			if (c.getDomicilio().equals(domicilioFiltrado)) {
-				filtrada.add(c);
-			}
-			
-		}
-		return filtrada;
-	}
-
-	// Por Telefono
-	private Collection<Contacto> filtrarTelefono(String telefonoFiltrado, Collection<Contacto> result) {
-
-		Collection<Contacto> filtrada = new ArrayList<Contacto>();
-
-		if (telefonoFiltrado == null || telefonoFiltrado.isEmpty())
-			return result;
-
-		for (Contacto c : result) {
-			if (c.getTelefono().equals(telefonoFiltrado)) {
 				filtrada.add(c);
 			}
 		}

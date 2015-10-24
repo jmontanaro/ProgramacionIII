@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: lightblue
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+	$("#btn").click(function(){
+		var nombre = $("#nombre").val();
+		var apellido = $("#apellido").val();
+		var domicilio = $("#domicilio").val();
+		var telefono = $("#telefono").val();
+		
+		$.post("http://localhost:8080/TpAgenda/romina/contactos",
+        {
+          nombre: nombre,
+          apellido: apellido, 
+          telefono: telefono, 
+          domicilio: domicilio
+        },
+        function(data,status){
+            $("#resultadonom").text(data.nombre);
+            $("#resultadoape").text(data.apellido);
+            $("#resultadodom").text(data.domicilio);
+            $("#resultadotel").text(data.telefono);
+        });
+    });
+});
+</script>
+</head>
+<body>
+		<fieldset>
+			<img
+				src="http://taliandroid.com/wp-content/uploads/2014/01/CONTACTOS-ICONO.png"
+				alt="agenda" style="width: 258px; height: 228px;" ALIGN=right>
+			<div>
+			<table>
+				<legend>Complete los datos:</legend>
+				<tr>
+					<br></br>
+					<td>Nombre</td>
+					<td><input style="background: chartreuse" type="text"
+						id="nombre" size="20" /></td>
+				</tr>
+				<tr>
+					<td>Apellido</td>
+					<td><input style="background: chartreuse" type="text"
+						id="apellido" size="20" /></td>
+				</tr>
+				<td>Domicilio</td>
+				<td><input style="background: chartreuse" type="text"
+					id="domicilio" size="20" /></td>
+				<tr>
+					<td>Telefono</td>
+					<td><input style="background: chartreuse" type="text"
+						id="telefono" size="20" /></td>
+				</tr>
+			</table>
+			<tr>
+				<td><br></br></td>
+				<button id="btn" >Agregar</button>
+				<br></br>
+			</tr>
+			<tr>
+				<td><br></br></td>
+				<button id="search" >Buscar</button>
+				<br></br>
+			</tr>
+			</div>
+			<div>
+				<label> Datos Ingresados: </label><br>
+				<label>Nombre: </label>
+				<label id="resultadonom"></label><br>
+				<label>Apellido: </label>
+				<label id="resultadoape"></label><br>
+				<label>Domicilio: </label>
+				<label id="resultadodom"></label><br>
+				<label>Telefono: </label>
+				<label id="resultadotel"></label><br>
+			</div>
+		</fieldset>
+</body>
+
+<body>
+
+<div id="tabla"/>
+
+	<script>
+	$(document).ready(function(){
+	$("#search").click(function(){
+		
+		var nombreBusqueda = $("#nombreBusqueda").val();
+		var apellidoBusqueda = $("#apellidoBusqueda").val();
+		var inicialBusqueda = $("#inicialBusqueda").val();
+		var domicilioBusqueda = $("#domicilioBusqueda").val();
+		
+		
+		
+		$.get("http://localhost:8080/TpAgenda/romina/contactos",
+		
+		function(data,status){			
+			
+			var text = "<table>";
+			var x;
+			for (x in data) {
+		    	text += "<tr>";
+		    	text +="   <td>"+data[x].nombre + "</td>";
+		    	text +="   <td>"+data[x].apellido + "</td>";
+		    	text +="   <td>"+data[x].domicilio + "</td>";
+		    	text +="</tr>";
+		
+		
+			//    text += "<tr><td>" + persons[x].fname + "</td></tr>";
+			}
+	        });	
+			text+="</table>";
+			// add for loop here
+		
+			document.getElementById("tabla").innerHTML = text;
+		};
+	};
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
