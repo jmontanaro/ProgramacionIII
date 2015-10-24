@@ -62,35 +62,92 @@ public class ContactoService {
 		return Response.status(Status.NOT_FOUND).build();
 		}
 	
-	@GET
-	public Response getTodo (){
-		contactosGuardados.values();
-		
-		return Response.ok(contactosGuardados).build();
-	}
-	
-	
-	List<Contacto> ListContactos = new ArrayList <Contacto> (contactosGuardados.values() );
-	
-	
+//	@GET
+//	public Response getTodo (){
+//		contactosGuardados.values();
+//		
+//		return Response.ok(contactosGuardados).build();
+//	}
+//	
 	
 	@GET
-	public Response getFiltroNombre (@QueryParam ("nombre") String filterName){
+	public Response filtro(@QueryParam("nombre") String nombre, @QueryParam("apellido") String apellido,
+			@QueryParam("inicial") String inicial, @QueryParam("direccion") String direccion) {
+	
+			
+		List<Contacto> listFilter= new ArrayList <Contacto> (contactosGuardados.values() );
 		
-		if (filterName != null){
-			String result = filtrarNombre (filterName , ListContactos);
+		if(listFilter.isEmpty()){
+			System.out.println("No hay datos ingresados");
+			return Response.noContent().build();
 		}
 		
-		private <ListContactos> ListContactos filtrarNombre(String filtro, List ContactosList){
-			if(filtro == null || filtro.isEmpty()
-						return ;
+		listFilter = filtrarNombre(nombre, listFilter);
+		listFilter = filtrarApellido(apellido, listFilter);
+		listFilter = filtrarInicial(inicial, listFilter);
+		listFilter = filtrarDireccion(direccion, listFilter);
 		
-		for(contacto c : l){
-		if(c.getNombre()equals(filtro)){
-		filtrada.add(c);
+		return Response.ok(listFilter).build();
+	}
+	
+	//Filtro Nombre
+	private List<Contacto> filtrarNombre(String nombre, List<Contacto> lista){
+		
+		List<Contacto> filtrada = new ArrayList<Contacto>();
+		
+		if(nombre == null || nombre.isEmpty()){
+			return lista;
+		}
+		for( Contacto c : lista ){
+			if(c.getNombre().equalsIgnoreCase(nombre)){
+				filtrada.add(c);
+			}
 		}
 		return filtrada;
-
 	}
 	
+	//Filtro Apellido
+	private List<Contacto> filtrarApellido(String apellido, List<Contacto> lista){
+		List<Contacto> filtrada = new ArrayList<Contacto>();
+		
+		if(apellido ==null || apellido.isEmpty()){
+			return lista;
+		}
+		
+		for( Contacto c : lista ){
+			if(c.getApellido().equalsIgnoreCase(apellido)){
+				filtrada.add(c);
+			}
+		}
+		return filtrada;
+	}
+	
+	//Filtro Inicial Nombre
+	private List<Contacto> filtrarInicial(String inicial, List<Contacto> lista){
+		List<Contacto> filtrada = new ArrayList<Contacto>();
+		
+		if(inicial ==null || inicial.isEmpty()){
+			return lista;
+		}
+		for( Contacto c : lista ){
+			if(c.getNombre().startsWith(inicial)){
+				filtrada.add(c);
+			}
+		}
+		return filtrada;
+	}
+	
+	//Filtro Direccion
+	private List<Contacto> filtrarDireccion(String direccion, List<Contacto> lista){
+		List<Contacto> filtrada = new ArrayList<Contacto>();
+		if(direccion ==null || direccion.isEmpty()){
+			return lista;
+		}
+		for( Contacto c : lista ){
+			if(c.getDireccion().toLowerCase().contains(direccion.toLowerCase())){
+				filtrada.add(c);
+			}
+		}
+		return filtrada;
+	}	
 }
