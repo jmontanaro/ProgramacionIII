@@ -53,17 +53,24 @@ public class Contactos {
 
 	@GET
 	// agregar todos los parametros nombre, apellido, etc.
-	public Response getFiltrados(@QueryParam("nombre") String filtroNombre,
-			@QueryParam("apellido") String filtroApellido, @QueryParam("inicial") String filtroInicial,
-			@QueryParam("domicilio") String filtroDomicilio) {
-
+	public Response getFiltrados(@QueryParam("filtroNombre") String filtroNombre,
+			@QueryParam("filtroApellido") String filtroApellido, @QueryParam("filtroInicial") String filtroInicial,
+			@QueryParam("filtroDomicilio") String filtroDomicilio) {
+		
+		System.out.println(String.format("filtros: nombre [%s] apellido [%s] inicial [%s] domicilio [%s]", filtroNombre, filtroApellido, filtroInicial, filtroDomicilio));
 		// contactosGuardados.values()
 		Collection<Contacto> result = contactosGuardados.values();
 
 		result = filtrarNombre(filtroNombre, result);
+		//System.out.println(result.size());
 		result = filtrarApellido(filtroApellido, result);
+		//System.out.println(result.size());
+		
 		result = filtrarInicial(filtroInicial, result);
+		//System.out.println(result.size());
+		
 		result = filtrarDomicilio(filtroDomicilio, result);
+		//System.out.println(result.size());
 
 		return Response.ok(result).build();
 		//return Response.ok(contactosGuardados.values()).build(); 
@@ -78,10 +85,10 @@ public class Contactos {
 			return result;
 
 		for (Contacto c : result) {
-			if (c.getNombre().equals(nombreFiltrado)) {
+			if (c.getNombre().equalsIgnoreCase(nombreFiltrado)) {
 				filtrada.add(c);
 			}
-			
+		
 		}
 		return filtrada;
 	}
@@ -95,7 +102,7 @@ public class Contactos {
 			return result;
 
 		for (Contacto c : result) {
-			if (c.getApellido().equals(apellidoFiltrado)) {
+			if (c.getApellido().equalsIgnoreCase(apellidoFiltrado)) {
 				filtrada.add(c);
 			}
 
@@ -113,7 +120,7 @@ public class Contactos {
 			return result;
 
 		for (Contacto c : result) {
-			if (c.getNombre().equals(inicialFiltrado)) {
+			if (c.getNombre().startsWith(inicialFiltrado)) {
 				filtrada.add(c);
 			}
 			
@@ -130,7 +137,7 @@ public class Contactos {
 			return result;
 
 		for (Contacto c : result) {
-			if (c.getDomicilio().equals(domicilioFiltrado)) {
+			if (c.getDomicilio() != null && c.getDomicilio().toLowerCase().contains(domicilioFiltrado.toLowerCase())) {
 				filtrada.add(c);
 			}
 		}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: lightpink
+}
+h1 {
+    color: magenta;
+	text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+h2 {
+    color: magenta;
+    font-size: 20px;
+    font-style: italic;
+}
+table#tabla {
+    width: 100%;    
+    background-color: #f1f1c1;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="Agenda.js"></script>
+
+</head>
+<body>
+		<fieldset>
+			<img
+				src="http://taliandroid.com/wp-content/uploads/2014/01/CONTACTOS-ICONO.png"
+				alt="agenda" style="width: 258px; height: 228px;" ALIGN=right>
+			<div>
+			<table>
+			    <h1><b>AGENDA</b></h1>
+				<tr>
+					<td>Nombre:</td>
+					<td><input style="background: chartreuse" type="text"
+						id="nombre" size="20" /></td>
+				</tr>
+				<tr>
+					<td>Apellido:</td>
+					<td><input style="background: chartreuse" type="text"
+						id="apellido" size="20" /></td>
+				</tr>
+				<td>Domicilio:</td>
+				<td><input style="background: chartreuse" type="text"
+					id="domicilio" size="20" /></td>
+				<tr>
+					<td>Telefono:</td>
+					<td><input style="background: chartreuse" type="text"
+						id="telefono" size="20" /></td>
+				</tr>
+				<tr>
+					<td>uno</td>
+					<td><input style="background: chartreuse" type="text"
+						id="1" size="20" /></td>
+				</tr>
+			</table>
+			<tr>
+				<td><br></br></td>
+				<button id="btn" >Agregar</button>
+				<br></br>
+			</tr>
+			</div>
+			<div>
+			<h2><b><label> Datos Ingresados: </label><br></b></h2>
+				<label>Nombre: </label>
+				<label id="resultadonom"></label><br>
+				<label>Apellido: </label>
+				<label id="resultadoape"></label><br>
+				<label>Domicilio: </label>
+				<label id="resultadodom"></label><br>
+				<label>Telefono: </label>
+				<label id="resultadotel"></label><br>
+			</div>
+		
+		<h2><b><br><label> Busqueda Por: </label><br></b></h2>
+			
+		<table id="tabladebusqueda" class="tg">
+		<tr>
+		   <td class="tg-3">Nombre: </td><td class="tg-2"><input type="text" id="nombreBusqueda"> </td>
+		</tr>
+		<tr>
+		   <td class="tg-3">Apellido: </td><td class="tg-2"><input type="text" id="apellidoBusqueda"></td>
+		</tr>
+		<tr>
+		   <td class="tg-3">Inicial Nombre: </td><td class="tg-2"><input type="text" id="inicialBusqueda"></td>
+		</tr>
+		<tr>
+		   <td class="tg-3">Domicilio: </td><td class="tg-2"><input type="text" id="domicilioBusqueda"></td>
+		</tr>
+		</table>
+		<br><button id="search">Buscar</button>
+		</div>
+		
+		<div>
+		<h2><b><br><label> Resultados de la Busqueda </label><br></b></h2>
+		<div id="tabla" borderStyle: 1 solid;/>
+		</fieldset>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
