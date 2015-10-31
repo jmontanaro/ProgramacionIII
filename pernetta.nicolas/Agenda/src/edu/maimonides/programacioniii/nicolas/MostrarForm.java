@@ -36,11 +36,6 @@ public class MostrarForm {
     		@FormParam("telefono") String telefono, 
     		@FormParam("direccion") String direccion) {
 		
-		if(mapContacto.isEmpty()){
-			System.out.println("Ingrese datos a cargar");
-			return Response.noContent().build();
-		}
-			
 		Integer idn = ++ID_GENERATOR;
 		
 		Contacto nuevocontacto = new Contacto();
@@ -80,7 +75,6 @@ public class MostrarForm {
 			@QueryParam("inicial") String inicial, @QueryParam("direccion") String direccion) {
 	
 			
-	//	List<Contacto> resultado = (List<Contacto>) mapContacto.values();
 		List<Contacto> resultado = new ArrayList<Contacto>(mapContacto.values());
 		
 		if(resultado.isEmpty()){
@@ -106,7 +100,7 @@ public class MostrarForm {
 			return lista;
 		}
 		for( Contacto c : lista ){
-			if(c.getNombre().equals(nombre)){
+			if(c.getNombre().equalsIgnoreCase(nombre)){
 				filtrada.add(c);
 			}
 		}
@@ -124,7 +118,7 @@ public class MostrarForm {
 			System.out.println("Apellido Inexistente");
 		}
 		for( Contacto c : lista ){
-			if(c.getApellido().equals(apellido)){
+			if(c.getApellido().equalsIgnoreCase(apellido)){
 				filtrada.add(c);
 			}
 		}
