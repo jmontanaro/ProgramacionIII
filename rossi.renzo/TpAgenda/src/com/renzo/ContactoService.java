@@ -130,7 +130,7 @@ public class ContactoService {
 			return lista;
 		}
 		for( Contacto c : lista ){
-			if(c.getNombre().startsWith(inicial)){
+			if(c.getNombre().toLowerCase().startsWith(inicial.toLowerCase())){
 				filtrada.add(c);
 			}
 		}
