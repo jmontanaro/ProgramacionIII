@@ -51,52 +51,7 @@ font-family: “Trebuchet MS”, Arial;
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<script>
-
-$(document).ready(function(){
-	$("#btn").click(function(){
-		var filtrarnombre = $("#nom").val();
-		var filtrarapellido = $("#surname").val();
-		var inicialnombre = $("#initialname").val();
-		var calledireccion = $("#streetadress").val();
-//		alert("filtrarnombre: " + filtrarnombre);
-		$.get("http://localhost:8080/Agendatp3/agenda/ruben/contacto?nombre="+filtrarnombre+"&apellido="+filtrarapellido+"&inicialnombre="+inicialnombre+"&calledireccion="+calledireccion+"",
-//		$.get("http://localhost:8080/Agendatp3/agenda/ruben/contacto",
-	        function(data,status){
-//				alert(JSON.stringify(data));
-//				alert("Data: " + data[0].nombre.toString() + "\nStatus: " + status);
-				var text = "<fieldset>";
-					text +="<legend><h1>Datos Filtrados</h1></legend>";
-				var x;
-//					text +="<table border="+"1"+"style="+"width:100%>";
-					text +="<table border="+"'1'"+"class="+"'tabla'"+"style="+"'width:100%'>";
-//					text +="<tr><td>Apellido</td><td>Nombre</td><td>Direccion</td><td>Telefono</td></tr>";
-					text +="<tr><th>Apellido</td><th>Nombre</td><th>Direccion</td><th>Telefono</td></tr>";
-				for (x in data) {
-				    text +="<tr><td>"+data[x].apellido.toString() + "</td>";
-				    text +="<td>"+data[x].nombre.toString() + "</td>";
-				    text +="<td>"+data[x].direccion.toString() + "</td>";
-				    text +="<td>"+data[x].telefono.toString() + "</td></tr>";
-//					text +="<table border="+"1"+"style="+"width:100%"+">";
-//				    text +="<tr><td>Apellido "+"</td><td>"+data[x].apellido.toString() + "</td></tr>";
-//				    text +="<tr><td>Nombre "+"</td><td>"+data[x].nombre.toString() + "</td></tr>";
-//				    text +="<tr><td>Direccion "+"</td><td>"+data[x].direccion.toString() + "</td></tr>";
-//				    text +="<tr><td>Telefono "+"</td><td>"+data[x].telefono.toString() + "</td></tr>";
-//				    text+="</table>";
-//				    text+="<br>";
-				}
-					text+="</table>";
-				    text+="</fieldset>";
-				    document.getElementById("tabla").innerHTML = text;
-				    document.getElementById("nom").value="";
-				    document.getElementById("surname").value="";
-				    document.getElementById("initialname").value="";
-				    document.getElementById("streetadress").value="";
-	        });
-	    });
-	});
-</script>
+<script src="Funcionbusqueda.js" type="application/javascript"></script>
 
 <body>
 
