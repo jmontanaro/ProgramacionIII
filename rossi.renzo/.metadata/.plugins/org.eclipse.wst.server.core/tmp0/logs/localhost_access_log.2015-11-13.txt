@@ -1,0 +1,9 @@
+127.0.0.1 - - [13/Nov/2015:16:54:54 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:55:40 -0300] "GET /TpAgenda/agendanew.html HTTP/1.1" 200 2895
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:55:41 -0300] "GET /TpAgenda/Funciones.js HTTP/1.1" 200 2290
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:07 -0300] "POST /TpAgenda/renzo/contactos HTTP/1.1" 200 109
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:13 -0300] "POST /TpAgenda/renzo/contactos HTTP/1.1" 200 105
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:23 -0300] "POST /TpAgenda/renzo/contactos HTTP/1.1" 200 110
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:32 -0300] "GET /TpAgenda/renzo/contactos/?apellido=rossi HTTP/1.1" 200 206
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:43 -0300] "GET /TpAgenda/renzo/contactos/?inicial=e HTTP/1.1" 200 112
+0:0:0:0:0:0:0:1 - - [13/Nov/2015:16:56:54 -0300] "GET /TpAgenda/renzo/contactos/?direccion=arbajal HTTP/1.1" 200 307

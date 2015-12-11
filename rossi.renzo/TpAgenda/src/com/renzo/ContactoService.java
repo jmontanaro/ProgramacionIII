@@ -110,7 +110,7 @@ public class ContactoService {
 	private List<Contacto> filtrarApellido(String apellido, List<Contacto> lista){
 		List<Contacto> filtrada = new ArrayList<Contacto>();
 		
-		if(apellido ==null || apellido.isEmpty()){
+		if(apellido == null || apellido.isEmpty()){
 			return lista;
 		}
 		
@@ -126,7 +126,7 @@ public class ContactoService {
 	private List<Contacto> filtrarInicial(String inicial, List<Contacto> lista){
 		List<Contacto> filtrada = new ArrayList<Contacto>();
 		
-		if(inicial ==null || inicial.isEmpty()){
+		if(inicial == null || inicial.isEmpty()){
 			return lista;
 		}
 		for( Contacto c : lista ){
@@ -140,7 +140,7 @@ public class ContactoService {
 	//Filtro Direccion
 	private List<Contacto> filtrarDireccion(String direccion, List<Contacto> lista){
 		List<Contacto> filtrada = new ArrayList<Contacto>();
-		if(direccion ==null || direccion.isEmpty()){
+		if(direccion == null || direccion.isEmpty()){
 			return lista;
 		}
 		for( Contacto c : lista ){
